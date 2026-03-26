@@ -1,6 +1,6 @@
 function showMessage() {
   document.getElementById("popupText").innerText =
-    "You are my favorite person in the whole universe 🥺💖 Please forgive me!";
+    "You are my favorite person in the whole universe 🥺💖 Please forgive me betu!";
   document.getElementById("popup").classList.remove("hidden");
 }
 
