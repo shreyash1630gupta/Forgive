@@ -6,7 +6,7 @@ function showMessage() {
 
 function surprise() {
   document.getElementById("popupText").innerText =
-    "I LOVE YOU MORE THAN PIZZA 🍕❤️ (and that's saying a lot)";
+    "YOU ARE THE BESTEST 🫰💗 I LOVE YOU THE MOSTUM MOSTEST MERI JAAN 💘🫶";
   document.getElementById("popup").classList.remove("hidden");
 }
 
