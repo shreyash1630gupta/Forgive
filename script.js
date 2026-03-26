@@ -1,9 +1,13 @@
 function showMessage() {
   document.getElementById("popupText").innerText =
-    "You are my favorite person in the whole universe 🥺💖 Please forgive me betu!";
+    "Please forgive me 🥺💖 I’ll never make you sad again!";
+
+  const gif = document.getElementById("popupGif");
+  gif.src = "sorry.gif";
+  gif.style.display = "block";
+
   document.getElementById("popup").classList.remove("hidden");
 }
-
 function surprise() {
   document.getElementById("popupText").innerText =
     "YOU ARE THE BESTEST 🫰💗 I LOVE YOU THE MOSTUM MOSTEST MERI JAAN 💘🫶";
@@ -12,6 +16,9 @@ function surprise() {
 
 function closePopup() {
   document.getElementById("popup").classList.add("hidden");
+
+  const gif = document.getElementById("popupGif");
+  gif.style.display = "none";
 }
 
 // Running away button 😆
