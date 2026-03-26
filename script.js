@@ -1,6 +1,6 @@
 function showMessage() {
   document.getElementById("popupText").innerText =
-    "Please forgive me 🥺💖 I am sorry betu!";
+    "Please forgive me 🥺💖 I am sorry";
 
   const gif = document.getElementById("popupGif");
   gif.src = "sorry.gif";
@@ -10,7 +10,7 @@ function showMessage() {
 }
 function surprise() {
   document.getElementById("popupText").innerText =
-    "YOU ARE THE BESTEST 🫰💗 I LOVE YOU THE MOSTUM MOSTEST MERI JAAN 💘🫶";
+    "YOU ARE THE BESTEST 🫰💗🫶";
   document.getElementById("popup").classList.remove("hidden");
 }
 
