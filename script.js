@@ -1,6 +1,6 @@
 function showMessage() {
   document.getElementById("popupText").innerText =
-    "Please forgive me 🥺💖 I’ll never make you sad again!";
+    "Please forgive me 🥺💖 I am sorry betu!";
 
   const gif = document.getElementById("popupGif");
   gif.src = "sorry.gif";
